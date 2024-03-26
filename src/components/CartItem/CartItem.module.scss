@@ -1,0 +1,71 @@
+@import '../../scss/variables';
+
+.root {
+  display: flex;
+  flex-direction: column;
+
+  width: 633px;
+  padding: 18px 28px 15px 18px;
+
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.root__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+
+  &_bottom {
+    justify-content: space-between;
+  }
+}
+
+.img {
+  width: 146px;
+  height: 136px;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 17px;
+  color: $color_dark;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+
+  margin-left: 15px;
+
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: right;
+  color: $color_dark;
+}

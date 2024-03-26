@@ -1,0 +1,49 @@
+@import '../../../scss/variables';
+
+.navList__link {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60px;
+  height: 60px;
+
+  text-decoration: none;
+
+  span {
+    position: absolute;
+    top: 12px;
+    right: 9px;
+
+    display: none;
+
+    width: 17px;
+    height: 18px;
+
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+
+    background-color: $color_accent;
+    border-radius: 50%;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      scale: 1.1;
+    }
+  }
+
+  &:active {
+    scale: 1;
+  }
+}
+
+.navList__link.show {
+  span {
+    display: inline;
+  }
+}

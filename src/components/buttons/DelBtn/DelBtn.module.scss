@@ -1,0 +1,15 @@
+.delBtn {
+  align-self: flex-start;
+
+  margin-left: auto;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  @media (hover: hover) {
+    &:hover {
+      scale: 1.1;
+    }
+  }
+}

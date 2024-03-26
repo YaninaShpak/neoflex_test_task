@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "Apple BYZ S852I",
+    "img": "./images/headphones_S8521.png",
+    "price": "2927",
+    "oldPrice": "3527",
+    "rating": "4.7",
+    "category": "0"
+  },
+  {
+    "id": "2",
+    "title": "Apple EarPods",
+    "img": "./images/headphones_EarPods_1.png",
+    "price": "2327",
+    "oldPrice": "",
+    "rating": "4.5",
+    "category": "0"
+  },
+  {
+    "id": "3",
+    "title": "Apple EarPods",
+    "img": "./images/headphones_EarPods_2.png",
+    "price": "2327",
+    "oldPrice": "",
+    "rating": "4.5",
+    "category": "0"
+  },
+  {
+    "id": "4",
+    "title": "Apple BYZ S852I",
+    "img": "./images/headphones_S8521.png",
+    "price": "2927",
+    "oldPrice": "3527",
+    "rating": "4.7",
+    "category": "0"
+  },
+  {
+    "id": "5",
+    "title": "Apple EarPods",
+    "img": "./images/headphones_EarPods_1.png",
+    "price": "2327",
+    "oldPrice": "",
+    "rating": "4.5",
+    "category": "0"
+  },
+  {
+    "id": "6",
+    "title": "Apple EarPods",
+    "img": "./images/headphones_EarPods_2.png",
+    "price": "2327",
+    "oldPrice": "",
+    "rating": "4.5",
+    "category": "0"
+  },
+  {
+    "id": "7",
+    "title": "Apple AirPods",
+    "img": "./images/headphones_AirPods.png",
+    "price": "9527",
+    "oldPrice": "",
+    "rating": "4.7",
+    "category": "1"
+  },
+  {
+    "id": "8",
+    "title": "GERLAX GH-04",
+    "img": "./images/headphones_Gerlax.png",
+    "price": "6527",
+    "oldPrice": "",
+    "rating": "4.7",
+    "category": "1"
+  },
+  {
+    "id": "9",
+    "title": "BOROFONE BO4",
+    "img": "./images/headphones_Borofone.png",
+    "price": "7527",
+    "oldPrice": "",
+    "rating": "4.7",
+    "category": "1"
+  }
+]

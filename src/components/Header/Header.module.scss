@@ -1,0 +1,22 @@
+@import '../../scss/variables';
+
+.root {
+  margin-bottom: 28px;
+}
+
+.root__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.root__title {
+  font-weight: 700;
+  font-size: 25px;
+  color: $color_basic;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+}

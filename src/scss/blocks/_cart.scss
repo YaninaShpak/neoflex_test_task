@@ -1,0 +1,23 @@
+.cartWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.cartTitle {
+  margin-bottom: 13px;
+
+  font-weight: 600;
+  font-size: 20px;
+  color: $color_dark;
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  row-gap: 20px;
+
+  list-style: none;
+}

@@ -1,0 +1,22 @@
+@import '../../../scss/variables.scss';
+
+.countBtn {
+  width: 30px;
+  height: 30px;
+
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+
+  background: $color_accent-light;
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  @media (hover: hover) {
+    &:hover {
+      background: $color_accent;
+    }
+  }
+}

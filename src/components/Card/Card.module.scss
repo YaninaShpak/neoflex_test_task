@@ -1,0 +1,73 @@
+@import '../../scss/variables';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 54px;
+
+  // width: 350px;
+  // height: 407px;
+
+  padding: 15px 18px 27px 22px;
+
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  width: 219px;
+  height: 237px;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 100%;
+}
+
+.info__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 17px;
+  color: $color_dark;
+}
+
+.price {
+  &__new {
+    font-weight: 600;
+    font-size: 17px;
+    color: $color_accent;
+  }
+
+  &__old {
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: $color_accent-light;
+  }
+}
+
+.rating {
+  padding-left: 34px;
+
+  font-weight: 600;
+  font-size: 17px;
+  color: $color_light;
+
+  background-image: url("../../assets/images/icons/star.svg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+}

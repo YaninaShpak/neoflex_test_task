@@ -1,0 +1,33 @@
+.socialList {
+  display: flex;
+  column-gap: 18px;
+}
+
+.socialList__icons {
+  display: flex;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../../assets/images/icons/social-icons.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &_vk {
+    background-position: 0 0;
+  }
+
+  &_tg {
+    background-position: -46px 0;
+  }
+
+  &_wha {
+    background-position: right 0 top 0;
+  }
+}
